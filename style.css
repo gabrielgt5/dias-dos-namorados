@@ -1,0 +1,67 @@
+body {
+  background-color: #fe70bd;
+}
+
+.divmain {
+  border: 3px solid #400023;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(249, 249, 249);
+  border-radius: 8px;
+  padding: 8px;
+  height: 600px;
+  width: 300px;
+  margin: auto;
+}
+
+.divmain h1 {
+  text-transform: uppercase;
+  margin-bottom: 130px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.img-flor {
+  margin-bottom: 150px;
+  width: 128px;
+  height: 128px;
+}
+
+.modalBtn {
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  width: 180px;
+  background-color: #400023;
+  color: white;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal .content {
+  border-radius: 8px;
+  background-color: #fe48aa;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
